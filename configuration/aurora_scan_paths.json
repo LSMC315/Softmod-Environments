@@ -1,0 +1,32 @@
+{
+  "storage_array_metadata": {
+    "device_label": "8TB_MULTI_ARRAY",
+    "partition_count": 2,
+    "cs_terminology": "Volatile-Isolating Heterogeneous Storage Mapping Structure",
+    "beginner_explanation": "A master map tracking how an 8TB external hard drive is split up so both the Xbox and PS4 can read their own specific game folders without mixing things up."
+  },
+  "volume_mappings": [
+    {
+      "mount_point": "VOL_A_XBOX360",
+      "file_system": "FAT32",
+      "capacity_bytes": 2199023255552,
+      "cs_terminology": "Legacy Sector Allocation and Direct Object Path Discovered Nodes",
+      "beginner_explanation": "The 2TB space reserved strictly for the Xbox 360 using older formatting rules that match the console's limits.",
+      "target_scan_paths": [
+        "Hdd1:\\Content\\0000000000000000\\",
+        "Usb0:\\Games\\Aurora\\Modules\\"
+      ]
+    },
+    {
+      "mount_point": "VOL_B_PS4_DEPLOY",
+      "file_system": "exFAT",
+      "capacity_bytes": 6597069766656,
+      "cs_terminology": "Unbounded Stream Package Injection Array & Target Deployment Vectors",
+      "beginner_explanation": "The massive 6TB space formatted with modern rules so large PS4 game packages can be sent over the home network without breaking.",
+      "target_scan_paths": [
+        "/data/pkg/deployments/CUSA_USA/",
+        "/data/payload/webkit/13_52_vector/"
+      ]
+    }
+  ]
+}
