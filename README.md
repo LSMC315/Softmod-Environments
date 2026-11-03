@@ -57,3 +57,5 @@ Whether you are a developer looking at project orchestration or a hobbyist setti
 └── configuration/
     └── aurora_scan_paths.json # Storage map schema tracking path automation
 ```
+---
+*Note: This technical documentation utilizes AI design formatting to structure computer science concepts alongside accessible beginner-friendly breakdowns.*
