@@ -58,4 +58,14 @@ Whether you are a developer looking at project orchestration or a hobbyist setti
     └── aurora_scan_paths.json # Storage map schema tracking path automation
 ```
 ---
+
+## 📚 Technical Documentation Index
+
+* **[PlayStation 4 Softmod & Hardware Restoration Guide](docs/ps4-softmod-journey.md):** Covers firmware 13.52 WebKit and GoldHEN setup, 500GB SSD Safe Mode recovery, retro emulation runtimes, and offline profile isolation.
+* **[Xbox 360 Slim Softmod & Hardware Validation Guide](docs/xbox360-softmod-journey.md):** Covers 10.83A Trinity motherboard verification, Peer Pressure software exploit architecture, Aurora dashboard staging, and HDDX backward compatibility.
+* **[8TB Storage Partitioning Architecture](docs/partition-splitting.md):** Explains splitting a single 8TB drive into a 2TB FAT32 partition for Xbox 360 discovery and a 6TB exFAT partition for PS4 packages.
+* **[Hardware Inventory & Validation Log](docs/hardware-validation.md):** Tracks active console revisions, internal drive upgrades, and hardware procurement criteria.
+* **[SPI Flash Dump & Checksum Verification Logic](docs/flash-dump-logic.md):** Details non volatile flash memory extraction and MD5/SHA256 integrity hashing.
+
+---
 *Note: This technical documentation utilizes AI design formatting to structure computer science concepts alongside accessible beginner-friendly breakdowns.*
